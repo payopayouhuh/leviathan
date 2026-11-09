@@ -1,6 +1,15 @@
 # LEVIATHAN
 
-クジラの体の仕組みを物理シミュレーションして鳴かせる、ブラウザ用の音声シンセサイザーです。見た目は [CHIMERA](https://github.com/jamesondh/chimera-vocal-synth)（Jameson Hodge, MIT）のベクター表示風デザインを参考にしています。
+クジラの体の仕組みを物理シミュレーションして鳴かせる、ブラウザ用の音声シンセサイザーです。
+
+## 参考にしたプロジェクト
+
+このプロジェクトは [**CHIMERA — Vocal Tract Synth**](https://github.com/jamesondh/chimera-vocal-synth)（作者: Jameson Hodge、ライセンス: MIT）を大いに参考にしています。
+
+- **UI / 見た目**: 画面全体のベクター表示風のデザイン、気道を格子で光らせる表現、左の長押しで発声する操作、SPECIES / CALLS / CONTROLS といった画面構成は CHIMERA の作りを踏襲しています。
+- **物理モデルの考え方**: 2質量モデルの声帯と、気道をFDTDで解く構成は CHIMERA のアプローチに倣ったものです。LEVIATHAN では対象をヒトからクジラ類（ザトウ・シロナガス・マッコウ・シャチ）に差し替え、喉頭嚢・頭部油器官・海中音響などを足しています。
+
+CHIMERA の作者と MIT ライセンスでの公開に感謝します。
 
 ## 使い方
 
